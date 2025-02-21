@@ -1,0 +1,45 @@
+/* font style */
+.oregano-regular {
+    font-family: "Oregano", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 500px;
+  }
+  
+  .oregano-regular-italic {
+    font-family: "Oregano", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  /* nav style */
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+  }
+  nav ul {
+    display:flex;
+    align-items: center;
+
+  }
+  nav ul li {
+    list-style: none;
+    margin-right: 50px;
+
+  }
+  /*text color  */
+  .text-highlight {
+    color: brown;
+  }
+  .size{
+    font-size: 50px
+  }
+.btn{
+    background-color: brown;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+}
